@@ -1,0 +1,41 @@
+\setbeamertemplate{footline}{
+    \begin{beamercolorbox}[sep=0.2em,wd=\paperwidth,leftskip=0.5cm,rightskip=0.5cm]{footlinecolor}
+        \scriptsize{\insertshortauthor-\insertshorttitle-\insertshortdate}
+        \hfill
+        \scriptsize{\insertframenumber/\inserttotalframenumber}
+    \end{beamercolorbox}
+}
+
+
+\setbeamertemplate{frametitle}{
+    \vspace*{0.5em}
+    \bfseries
+    \insertframetitle\par
+    \vskip-6pt
+    \hrulefill
+    \vspace{-0.1em}
+    \logo {
+        \begin{tikzpicture}[overlay,remember picture]
+            \node[left=0.7cm] at (current page.25){
+                \includegraphics[width=1.7cm]{logo/TJU.png}
+            };
+        \end{tikzpicture}
+        }
+        %-------------------------
+        {\usebeamercolor[fg]{titlegraphic}\insertlogo\par}
+}
+
+
+\pgfdeclareverticalshading[lower.bg,upper.bg]{bmb@transition}{200cm}{%
+  color(0pt)=(lower.bg); color(2pt)=(lower.bg); color(4pt)=(lower.bg)}
+
+\setbeamersize{text margin left=2em,text margin right=2em}
+
+% table of contents (overview)
+\setbeamertemplate{section in toc}[sections numbered]
+\setbeamertemplate{subsection in toc}{\leavevmode\leftskip=3.2em\rlap{\hskip-2em\inserttocsectionnumber.\inserttocsubsectionnumber}\inserttocsubsection\par}
+
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{blocks}[default]
+\setbeamertemplate{enumerate items}[default]
