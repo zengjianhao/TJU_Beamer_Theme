@@ -1,8 +1,8 @@
 # TJU_BeamerTheme
 
-一个 TJU 的 Beamer 模版，样式参考于 AIC Presentation Template
+A Beamer template for Tianjin University, with styling based on the AIC Presentation Template.
 
-## 展示
+## Display
 
 ![](./Images/1.jpg)
 
@@ -37,3 +37,7 @@
 ---
 
 ![](./Images/9.jpg)
+
+## Suggestion
+
+Contact information: jh_zeng@tju.edu.cn
