@@ -1,4 +1,4 @@
-# TJU_BeamerTheme
+# TJU_Beamer_Theme
 
 A Beamer template for Tianjin University, with styling based on the AIC Presentation Template.
 
